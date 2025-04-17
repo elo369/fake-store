@@ -39,7 +39,7 @@ const CartProductCard = ({ productDetails }) => {
   };
 
   return (
-    <div className="card bg-base-100 shadow-xl border border-white/10">
+    <div className="sm:top-0 flex flex-shrink-1 sm:flex-shrink-0 card bg-base-100 shadow-xl border border-white/10">
       <figure>
         <img
           src={productDetails.image}
